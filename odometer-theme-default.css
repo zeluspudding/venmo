@@ -62,6 +62,7 @@
   -o-transition: -o-transform 2s;
   transition: transform 2s;
 	color: #004B41;
+  text-shadow: 0px 0px 2.5px #00C57F;
 }
 .odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
   -webkit-transform: translateY(-100%);
@@ -70,6 +71,7 @@
   -o-transform: translateY(-100%);
   transform: translateY(-100%);
 	color: #004B41;
+  text-shadow: 0px 0px 2.5px #00C57F;
 }
 .odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-down .odometer-ribbon-inner {
   -webkit-transform: translateY(-100%);
@@ -78,6 +80,7 @@
   -o-transform: translateY(-100%);
   transform: translateY(-100%);
   color: #C70000;
+  text-shadow: 0px 0px 2.5px #FF0000;
 }
 .odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
   -webkit-transition: -webkit-transform 2s;
@@ -91,6 +94,7 @@
   -o-transform: translateY(0);
   transform: translateY(0);
   color: #C70000;
+  text-shadow: 0px 0px 2.5px #FF0000;
 }
 
 .odometer.odometer-auto-theme, .odometer.odometer-theme-default {
