@@ -106,5 +106,17 @@
 }
 
 .odometer .odometer-inside:before {
-    content: "$"
+    content: "$";
+}
+
+.odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-inside:before{
+    content: "$";
+    color: #C70000;
+    text-shadow: 0px 0px 4px #FFACAC;
+}
+
+.odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-inside:before{
+    content: "$";
+    color: #00816D;
+    text-shadow: 0px 0px 4px #A6FFE0;
 }
